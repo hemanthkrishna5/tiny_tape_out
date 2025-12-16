@@ -50,7 +50,7 @@ yaml_version: 6
 
 ## How it works
 
-See how the input chnages will reflect the Mux and And gate changes
+See how the input chnages will reflect the Mux and And gate changes.
 
 ## How to test it
 |input a and b |output a|
