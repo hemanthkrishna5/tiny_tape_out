@@ -9,11 +9,20 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Inputs **a** and **b** are fed into AND, NAND, and OR gates.
+The selected logic result is routed to the output through the control logic.
+The output state is shown on the connected display.
 
 ## How to test
 
-Explain how to use your project
+Set the inputs and verify the outputs match the table below:
+
+| input a | input b | AND | NAND | OR |
+|--------:|--------:|----:|-----:|---:|
+| 0 | 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 0 | 1 |
 
 ## External hardware
 
