@@ -47,16 +47,19 @@ pinout:
 
 # Do not change!
 yaml_version: 6
+## How it works
+
+Inputs **a** and **b** are fed into AND, NAND, and OR gates.
+The selected logic result is routed to the output through the control logic.
+The output state is shown on the connected display.
+
 ## How to test
 
-1. Set **input a (ui[0])** and **input b (ui[1])**.
-2. Toggle **mux sel (ui[2])** to switch the path.
-3. Observe **output a (uo[0])** on the display.
+Set the inputs and verify the outputs match the table below:
 
-### Expected
-| input a | input b | output a |
-|--------:|--------:|---------:|
-| 0 | 0 | 1 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 0 |
+| input a | input b | AND | NAND | OR |
+|--------:|--------:|----:|-----:|---:|
+| 0 | 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 0 | 1 |
