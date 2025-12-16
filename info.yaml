@@ -26,7 +26,7 @@ pinout:
   ui[7]: "input d"
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "output a"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
@@ -47,3 +47,11 @@ pinout:
 
 # Do not change!
 yaml_version: 6
+
+## How it works
+
+See how the input chnages will reflect the Mux and And gate changes
+
+## How to test it
+|input a and b |output a|
+|0 0           | 1      |
